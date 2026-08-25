@@ -21,4 +21,22 @@
   <symbol id="x-icon" viewBox="0 0 19 19">
     <path fill="#08060d" fill-rule="evenodd" d="M1.893 1.98c.052.072 1.245 1.769 2.653 3.77l2.892 4.114c.183.261.333.48.333.486s-.068.089-.152.183l-.522.593-.765.867-3.597 4.087c-.375.426-.734.834-.798.905a1 1 0 0 0-.118.148c0 .01.236.017.664.017h.663l.729-.83c.4-.457.796-.906.879-.999a692 692 0 0 0 1.794-2.038c.034-.037.301-.34.594-.675l.551-.624.345-.392a7 7 0 0 1 .34-.374c.006 0 .93 1.306 2.052 2.903l2.084 2.965.045.063h2.275c1.87 0 2.273-.003 2.266-.021-.008-.02-1.098-1.572-3.894-5.547-2.013-2.862-2.28-3.246-2.273-3.266.008-.019.282-.332 2.085-2.38l2-2.274 1.567-1.782c.022-.028-.016-.03-.65-.03h-.674l-.3.342a871 871 0 0 1-1.782 2.025c-.067.075-.405.458-.75.852a100 100 0 0 1-.803.91c-.148.172-.299.344-.99 1.127-.304.343-.32.358-.345.327-.015-.019-.904-1.282-1.976-2.808L6.365 1.85H1.8zm1.782.91 8.078 11.294c.772 1.08 1.413 1.973 1.425 1.984.016.017.241.02 1.05.017l1.03-.004-2.694-3.766L7.796 5.75 5.722 2.852l-1.039-.004-1.039-.004z" clip-rule="evenodd"/>
   </symbol>
+  <symbol id="mail-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M3.333 5h13.334c.916 0 1.666.75 1.666 1.667v6.666c0 .917-.75 1.667-1.666 1.667H3.333c-.916 0-1.666-.75-1.666-1.667V6.667C1.667 5.75 2.417 5 3.333 5Z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="m2 6.25 8 5.417 8-5.417"/>
+  </symbol>
+  <symbol id="phone-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M4.03 2.5h2.475a1 1 0 0 1 .97.757l.775 3.014a1 1 0 0 1-.31 1.005l-1.4 1.201a10.7 10.7 0 0 0 4.982 4.983l1.202-1.4a1 1 0 0 1 1.005-.31l3.013.775a1 1 0 0 1 .758.97v2.475a1 1 0 0 1-1.075.998C8.978 16.417 3.583 11.022 3.032 3.575A1 1 0 0 1 4.03 2.5Z"/>
+  </symbol>
+  <symbol id="location-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M16.667 8.333c0 5.417-6.667 10-6.667 10s-6.667-4.583-6.667-10a6.667 6.667 0 1 1 13.334 0Z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M10 10.417a2.083 2.083 0 1 0 0-4.167 2.083 2.083 0 0 0 0 4.167Z"/>
+  </symbol>
+  <symbol id="linkedin-icon" viewBox="0 0 20 20">
+    <path fill="currentColor" d="M5.5 3.75a1.75 1.75 0 1 1-3.5 0 1.75 1.75 0 0 1 3.5 0ZM2.25 7.083h3.5v10.167h-3.5V7.083Zm6.146 0h3.354v1.39h.048c.467-.884 1.61-1.816 3.313-1.816 3.542 0 4.198 2.332 4.198 5.365v5.228h-3.5v-4.635c0-1.106-.02-2.529-1.541-2.529-1.542 0-1.778 1.204-1.778 2.448v4.716h-3.5V7.083Z"/>
+  </symbol>
+  <symbol id="globe-icon" viewBox="0 0 20 20">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M18.333 10a8.333 8.333 0 1 1-16.666 0 8.333 8.333 0 0 1 16.666 0Z"/>
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.35" d="M2 10h16M10 1.667c2.084 2.291 3.25 5.262 3.333 8.333-.083 3.07-1.25 6.042-3.333 8.333-2.084-2.291-3.25-5.262-3.333-8.333.083-3.07 1.25-6.042 3.333-8.333Z"/>
+  </symbol>
 </svg>
