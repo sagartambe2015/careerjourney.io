@@ -159,6 +159,12 @@ export const experience = [
 ]
 
 export const education = [
+  {
+    degree: 'CPEE: Certified Program in Financial Engineering',
+    school: 'IIQF',
+    year: '2026',
+  },
+  { degree: 'PG Diploma in AI/ML', school: 'Purdue University', year: '2023' },
   { degree: 'MBA: Information Technology', school: 'Welingkar Institute, Mumbai', year: '2017' },
   {
     degree: 'Bachelor of Science: Information Technology',
@@ -168,7 +174,6 @@ export const education = [
 ]
 
 export const certifications = [
-  'PG Diploma in AI/ML — Purdue University',
   'Sun Certified Java Business Component Developer (SCBCD)',
   'Sun Certified Java Programmer (SCJP)',
   'MCTS: Microsoft SQL Server 2008 Database Development',
