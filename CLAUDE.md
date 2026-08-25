@@ -24,4 +24,4 @@ There is no test runner configured in this repo.
 
 ## Deployment
 
-`Dockerfile` builds with `npm ci && npm run build`, then serves via `npm run preview -- --port 3001 --host` on port 3001 (Vite's preview server, not a production static host).
+`Dockerfile` is a two-stage build: the `build` stage runs `npm ci && npm run build`, the runtime stage installs production deps and serves via `npm run preview -- --port 5124 --host` on port 5124 (Vite's preview server, not a production static host). Configured for deployment via Dokploy, which expects the app to listen on port 5124.
