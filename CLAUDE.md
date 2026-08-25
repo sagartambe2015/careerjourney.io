@@ -24,4 +24,4 @@ There is no test runner configured in this repo.
 
 ## Deployment
 
-`Dockerfile` is a two-stage build: the `build` stage runs `npm ci && npm run build`, the runtime stage installs production deps and serves via `npm run preview -- --port 5124 --host` on port 5124 (Vite's preview server, not a production static host). Configured for deployment via Dokploy, which expects the app to listen on port 5124.
+`Dockerfile` is a two-stage build: the `build` stage runs `npm ci && npm run build`, the runtime stage is `nginx:alpine` serving the built `dist/` output as static files per `nginx.conf` (SPA fallback to `index.html`, gzip, long-cache headers on `/assets/`). Nginx listens on port 5124 with `server_name www.careerjourney.io careerjourney.io`. Configured for deployment via Dokploy, which expects the app to listen on port 5124 and handles the actual domain routing/SSL termination (Traefik) in front of the container.

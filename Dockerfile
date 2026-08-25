@@ -8,15 +8,11 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM node:20-alpine
+FROM nginx:alpine
 
-WORKDIR /app
-
-COPY --from=build /app/package.json /app/package-lock.json ./
-RUN npm ci --omit=dev
-COPY --from=build /app/dist ./dist
-COPY --from=build /app/vite.config.js ./vite.config.js
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 5124
 
-CMD ["npm", "run", "preview", "--", "--port", "5124", "--host"]
+CMD ["nginx", "-g", "daemon off;"]
